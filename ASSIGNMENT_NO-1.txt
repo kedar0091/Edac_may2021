@@ -1,0 +1,227 @@
+
+ASSIGNMENT NO 01:
+
+
+//1. Write a Java program to print 'Hello' on screen and then print your name on a separate line.
+
+class lab1Q1
+{
+	public static void main(String args[])
+	{
+		System.out.println("Hello");
+		System.out.println("Kedar");
+	}
+}
+
+
+//2. Write a Java program to print the sum of two numbers.
+
+class lab1Q2
+{
+	public static void main(String args[])
+	{
+		int a=74;
+		int b=36;
+		System.out.println(a+" + "+b+ "= "+(a+b));
+	}
+}
+
+
+//3. Write a Java program to divide two numbers and print on the screen.
+
+class lab1Q3
+{
+	public static void main(String args[])
+	{
+		int a=50;
+		int b=3;
+		System.out.println(a+" / "+b+ "= "+(a/b));
+	}
+}
+
+
+
+//4. Write a Java program to print the result of the following operations.
+
+class lab1Q4
+{
+	public static void main(String args[])
+	{
+		int a= -5+8*6;
+		int b= (55+9)%9;
+		int c= 20 + -3*5 / 8;
+		int d= 5 + 15 / 3 * 2 - 8 % 3;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+}
+
+
+
+// 5. Write a Java program that takes two numbers as input and display the product of two numbers.
+
+class lab1Q5
+{
+	public static void main(String args[])
+	{
+		int a=25;
+		int b=5;
+		System.out.println(a+" * "+b+ "= "+(a*b));
+	}
+}
+
+
+
+//6. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+
+class lab1Q6
+{
+	public static void main(String args[])
+	{
+		int i=125;
+		int j=24;
+		
+		System.out.println(i+" + "+j+ " = "+(i+j));
+		System.out.println(i+" - "+j+ " = "+(i-j));
+		System.out.println(i+" * "+j+ " = "+(i*j));
+		System.out.println(i+" / "+j+ " = "+(i/j));
+		System.out.println(i+" % "+j+ " = "+(i%j));
+	}
+}
+
+
+
+//7. Write a Java program that takes a number as input and prints its multiplication table upto 10
+
+class lab1Q7
+{
+	public static void main(String args[])
+	{
+		
+		int no=8;
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(no+" x "+i+ " = " +(no*i)); 
+		}
+	}
+}
+
+
+
+//9. Write a Java program to compute the specified expressions and print the output
+
+class lab1Q9
+{
+	 public static void main(String args[])
+	{
+		double result;
+		result=((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+		System.out.println(result);
+	}
+
+}
+
+
+
+//10. Write a Java program to compute a specified formula.
+
+class lab1Q10
+{
+	 public static void main(String args[])
+	{
+		double result;
+		result= 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+		System.out.println(result);
+	}
+
+}
+
+
+
+// 11. Write a Java program to print the area and perimeter of a circle.
+
+class lab1Q11
+{
+	public static void main(String args[])
+	{
+		float radius=7.5f;
+		double area= 3.1415926535 * radius * radius;
+		double perimeter= 2 * 3.1415926535 * radius;
+		System.out.println("Perimeter is = "+perimeter);
+		System.out.println("Area is = "+area);
+	}
+}
+
+
+//12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
+
+import java.util.*;
+import java.util.Scanner;
+class lab1Q12
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter three numers");
+		float a=sc.nextInt();
+		float b=sc.nextInt();
+		float c=sc.nextInt();
+		
+		float average = (a+b+c)/3;
+		System.out.println("average of num is = "+average);
+	}
+}
+
+//13. Write a Java program to print the area and perimeter of a rectangle.
+
+class lab1Q13
+{
+	public static void main(String args[])
+	{
+		float w=5.5f;
+		float h=8.5f;
+		float area= w*h;
+		float perimeter= 2*(h+w);
+		System.out.println("Perimeter is = "+perimeter);
+		System.out.println("Area is = "+area);
+	}
+}
+
+
+//15. Write a Java program to swap two variables.
+
+class lab1Q15
+{
+	public static void main(String args[])
+	{
+		int a=10; 
+		int b=20;
+		int temp;
+		System.out.println("Before Swapping values of a and b");
+		System.out.println("A ="+a+ "B= "+b);
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("After Swapping values of a and b");
+		System.out.println("A = "+a+ "B= "+b);
+		
+	}
+	
+}
+
+//16. Write a Java program to print a face.
+
+class lab1Q16
+{
+public static void main(String args[])
+{
+	System.out.println(" +\"\"\"\"\"+ ");
+	System.out.println("[| o o |]");
+	System.out.println(" |  ^  | ");
+	System.out.println(" | '-' | ");
+	System.out.println(" +\"\"\"\"\"+ ");
+}
+}
